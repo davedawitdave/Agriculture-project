@@ -89,26 +89,9 @@ def query_data(engine, sql_query):
         raise e
 
 
-def ingest_data():
-    try:
-        # Ingest JSON data from a URL
-        json_url = "https://example.com/data.json"
-        response = requests.get(json_url)
-        if response.status_code == 200:
-            json_data = response.json()
-            # Process JSON data
-            # Example: df_json = pd.DataFrame(json_data)
-            logger.info("JSON data ingested successfully.")
-        else:
-            logger.error(
-                f"Failed to retrieve JSON data from {json_url}. Status code: {response.status_code}"
-            )
-    except Exception as e:
-        logger.error(f"An error occurred while ingesting JSON data: {str(e)}")
-
+def ingest_data(csv_file):
     try:
         # Ingest CSV data from local file
-        csv_file = "data/data.csv"
         df_csv = pd.read_csv(csv_file)
         # Process CSV data
         logger.info("CSV data ingested successfully.")

@@ -23,7 +23,7 @@ Usage:
 """
 
 import pandas as pd
-from data_ingestion import create_db_engine, query_data, ingestion_data
+from data_ingestion import create_db_engine, query_data, ingest_data
 import logging
 
 
@@ -175,7 +175,7 @@ class FieldDataProcessor:
         Returns:
         - The weather station data as a pandas DataFrame.
         """
-        weather_map_df = ingestion_data(self.weather_map_data)
+        weather_map_df = ingest_data(self.weather_map_data)
         self.df = self.df.merge(weather_map_df, on="Field_ID", how="left")
         self.df = self.df.drop(columns="Unnamed: 0")
 
