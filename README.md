@@ -55,7 +55,7 @@ The dataset includes the following features:
 This project aims to provide valuable insights into agricultural yield prediction using various machine learning techniques. Through analysis and modeling, we can develop predictive models that help optimize farming practices and increase productivity.
 
 ## Contributors
-- [Your Name](https://github.com/davedawitdave)
+- [Dawit Asmero](https://github.com/davedawitdave)
 - Data from the ExploreAI open dataset
 
 ## License
