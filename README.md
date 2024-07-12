@@ -14,6 +14,8 @@ The primary objective of this project is to develop predictive models that can p
 - Interpret regression coefficients and understand their impact on the target variable.
 - Implement decision tree models for prediction tasks, exploring both categorical and numerical data.
 - Calculate and interpret Mean Squared Error (MSE) and Root Mean Squared Error (RMSE) for model evaluation.
+- Implement different machine learning models including Decision tree, support vector machine regression, random forest
+- Perform Hyperparameter tuning for each of the above machine-learning models and implement heterogeneous stacking ensembling.
 
 ## Dataset Description
 The dataset includes the following features:
@@ -52,8 +54,9 @@ The dataset includes the following features:
 4. Run the analysis notebook: `jupyter notebook agricultural_analysis.ipynb`
 
 ## Conclusion
-This project aims to provide valuable insights into agricultural yield prediction using various machine learning techniques. Through analysis and modeling, we can develop predictive models that help optimize farming practices and increase productivity.
-
+This project aims to provide valuable insights into agricultural yield prediction using various machine-learning techniques. Through analysis and modeling, we can develop predictive models that help optimize farming practices and increase productivity.
+## Future work 
+We aim to add crop recommendations for the particular terrain.
 ## Contributors
 - [Dawit Asmero](https://github.com/davedawitdave)
 - Data from the ExploreAI open dataset
